@@ -30,7 +30,7 @@ public class main {                                         //Creacion De Mi Cla
         System.out.println("Introduce el nombre del autor del libro");
         book.setAutor(leer.next());
         System.out.println("Introduce cuantas paginas tiene el libro");
-        book.setNumeroDePagina(leer.nextInt());
+        book.setNumeroDePagina(200);
         return book;                            //Todos los datos cargados se almacenaran en la variable book 
     }
     
