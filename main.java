@@ -26,7 +26,7 @@ public class main {                                         //Creacion De Mi Cla
         System.out.println("Introduce el Codigo ISBN");
         book.setISBN(leer.nextInt());         //los guardo en Setter ya que el se encarga de modificar  
         System.out.println("Introduce el nombre del libro");
-        book.setTitulo(leer.next());            
+        book.setTitulo("El secreto del bambu");            
         System.out.println("Introduce el nombre del autor del libro");
         book.setAutor(leer.next());
         System.out.println("Introduce cuantas paginas tiene el libro");
